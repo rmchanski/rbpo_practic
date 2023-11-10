@@ -12,11 +12,6 @@ public class MainController {
         model.addAttribute("title", "RmDeal");
         return "home";
     }
-    @GetMapping("/list")
-    public String list(Model model) {
-        model.addAttribute("title", "Каталог");
-        return "list";
-    }
     @GetMapping("/about")
     public String about(Model model) {
         model.addAttribute("title", "О нас");
